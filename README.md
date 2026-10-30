@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fullstack App — React + Node.js + SQLite
 
 A standard-structure full-stack starter:
@@ -105,3 +106,7 @@ its own Zod schemas (`features/todos/todoSchema.ts`).
   `better-sqlite3` native build failure), so `node_modules/.bin/tsx` was
   never written. A clean `npm install` with the updated `package.json`
   resolves it.
+=======
+# fresh-point-inventory
+A business management application for my wife’s Madhura Juice Shop, designed to manage daily inventory, sales and purchase transactions, stock balance, balance sheet, cash flow, and financial records efficiently.
+>>>>>>> 22a4c9af28e49b3ab935f76e87e179c68886b33f
