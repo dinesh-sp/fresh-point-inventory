@@ -1,0 +1,1 @@
+export { ProdTypAdd } from "./add";

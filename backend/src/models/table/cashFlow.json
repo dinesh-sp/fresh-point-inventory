@@ -1,0 +1,13 @@
+{
+  "table": "cashflow",
+  "insert": {
+    "Columns": [
+      "ledger_id",
+      "code",
+      "tof_cnt",
+      "tof_value",
+      "pty_cnt",
+      "pty_value"
+    ]
+  }
+}

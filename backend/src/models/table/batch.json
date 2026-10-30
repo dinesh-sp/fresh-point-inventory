@@ -1,0 +1,38 @@
+{
+  "table": "batch",
+  "insert": {
+    "Columns": [
+      "material_id",
+      "measurement_id",
+      "code",
+      "name",
+      "price",
+      "start_date",
+      "is_default",
+      "status"
+    ]
+  },
+  "list": {
+    "columns": [
+      "id",
+      "code",
+      "name",
+      "price",
+      "start_date",
+      "is_default",
+      "status"
+    ],
+    "JTables": [
+      {
+        "name": "material",
+        "relation": { "from": "id", "to": "batch.material_id" },
+        "columns": ["name"]
+      },
+      {
+        "name": "measurement",
+        "relation": { "from": "id", "to": "batch.measurement_id" },
+        "columns": ["name"]
+      }
+    ]
+  }
+}

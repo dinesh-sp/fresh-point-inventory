@@ -1,0 +1,10 @@
+{
+  "table": "measurement",
+  "insert": {
+    "Columns": ["name", "code"]
+  },
+  "list": {
+    "columns": ["id", "name", "code"],
+    "JTables": []
+  }
+}

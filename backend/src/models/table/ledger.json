@@ -1,0 +1,6 @@
+{
+  "table": "ledger",
+  "insert": {
+    "Columns": ["ledger_date", "toff", "patty_cash", "total"]
+  }
+}
